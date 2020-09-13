@@ -1,0 +1,119 @@
+@font-face {
+  font-family: Slabo;
+  src: url(https://fonts.googleapis.com/css?family=Slabo+27px);
+}
+
+body {
+  margin: 0;
+  background-image: url(./img/pattern.jpg);
+  font-family: Slabo;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 30px;
+  text-align: left;
+}
+
+span {
+  font-weight: bold;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+nav a {
+  color: blue;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+
+table {
+  width: 100%;
+}
+
+th{
+  text-align: left;
+}
+
+td {
+  vertical-align: center;
+  padding: 5px 10px 5px 0;
+  text-align: left;
+}
+
+header {
+  display: inline-block;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+}
+
+section {
+  width: 65%;
+  background-color: white;
+  padding: 20px;
+  margin: 65px auto 10px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 1px;
+}
+
+
+
+
+.contact-container {
+  width: 60%;
+  margin: 65 auto;
+  border: solid gray 0.5px;
+}
+
+.space-form {
+  height: 35;
+}
+
+.space-form-textarea {
+  height: 95;
+}
+
+.about-container {
+  width: 45%;
+  border: solid gray 0.5px;
+}
+
+.properti-film {
+  margin-top: 10px;
+}
+
+.properti-film h3{
+  margin: 0 10px;
+}
+
+.form-input{
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.tr-list td{
+  border-bottom: 0.5px solid rgb(221, 221, 221);
+}
+
+.movie-editor{
+  display: none;
+}
